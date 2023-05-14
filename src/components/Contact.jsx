@@ -4,7 +4,7 @@ import "../styles/style.css"
 const Contact = () => {
     return (
         <div className='container'>
-            <form action="" autoComplete='disabled'>
+            <form method='post' action="/contact" autoComplete='disabled'>
                 <h2>Contact Us</h2>
                 <div className="name-box">
                     <input required autoComplete="disabled" type="text" name="name" id="name" />
